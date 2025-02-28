@@ -12,8 +12,8 @@ public class Cours_SIFIDonjon : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-		PublicIncludePaths.AddRange(new string[] { "Characters" });
-		PrivateIncludePaths.AddRange(new string[] { "Characters" });
+		PublicIncludePaths.AddRange(new string[] { "Characters", "Global" });
+		PrivateIncludePaths.AddRange(new string[] { "Characters", "Global" });
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
